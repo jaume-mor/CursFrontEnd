@@ -28,7 +28,81 @@
     <iframe src="
         https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23937.96059590648!2d2.1954560000000125!3d41.4121984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1642764294682!5m2!1sen!2ses"
         width="400" height="300" style="border:none;" allowfullscreen="" loading="lazy"></iframe>"</style>
+<br><br>
 
+<h3>Dades bàsiques</h3><br>
+<form action="">
+    <label for="fname">Nom:</label><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <label for="lname">Primer cognom:</label><br>
+    <input type="text" id="lname" name="lname" size="50">
+    <label for="lname2">Segon cognom:</label>
+    <input type="text" id="lname2" name="lname2" size=50><br><br>
+
+    <label for="tipusdocument">Tipus de document:</label><br>
+<select id="tipusdocument" name="tipusdocument"><br>
+  <option value="NIF">NIF</option>
+  <option value="NIE">NIE</option>
+  <option value="Passsaport">Passaport</option>
+</select><br>
+
+<label for="numdocument">Número de document</label><br>
+<input type="text" id="numdocument" name="numdocument" maxlength="9" size="12"><br><br>
+
+<p>Ets</p>
+<input type="radio" name="home" id="genere">
+<label for="home">Home</label><br>
+<input type="radio" name="dona" id="genere">
+<label for="dona">Dona</label><br>
+<input type="radio" name="nobinari" id="genere">
+<label for="nobinari">No binari</label>
+
+<label for="datanaix">Data de naixement:</label>
+<input type="text" id="datanaix" name="dd/mm/yyyy" size="11" maxlength=10>
+  
+</form>
+
+<h3>Dades de contacte</h3>
+
+<form action="">
+    <label for="correu">Adreça de correu:</label><br>
+    <input type="text" id="correu" name="correu" size="40"><br>
+    <label for="telefon">Telèfon:</label><br>
+    <input type="text" id="telefon" name="correu" size="10" maxlength="9"><br>
+
+    <p>Vius a Barcelona?</p>
+    <input type="radio" name="Si" id="residencia">
+<label for="Si">Si</label>
+<input type="radio" name="No" id="residencia">
+<label for="No">No</label><br><br>
+
+<label for="tipusvia">Tipus de Via:</label>
+<select id="tipusvia" name="tipusvia">
+  <option value="carrer">Carrer</option>
+  <option value="Plaça">Plaça</option>
+  <option value="Avinguda">Avinguda</option>
+
+</select>
+<label for="adreçap">Adreça:</label>
+    <input type="text" id="adreçap" name="adreçap" size="50"><br><br>
+<label for="numero">Número:</label>
+<input type="text" id="numero" name="numero" size="4">
+<label for="pis">Pis:</label>
+<input type="text" id="pis" name="pis" size="4">
+<label for="porta">Porta:</label>
+<input type="porta" id="porta" name="porta" size="5">
+<label for="escala">escala:</label>
+<input type="text" id="escala" name="escala" size="10"><br> <br>
+<label for="codip">Codi Postal:</label>
+<input type="text" id="codip" name="codip" size="10" maxlength="5">
+<label for="poblacio">Població:</label>
+<input type="text" id="poblacio" name="poblacio" size="40"><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+        
 </body>
 
 </html>
