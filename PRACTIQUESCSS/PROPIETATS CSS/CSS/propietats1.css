@@ -1,8 +1,9 @@
 /*Selector de classe per a un div etiquetat sempàticament com a section*/
-.section {
+section {
     height: 300px;
     width: 600px;
     background-color: palevioletred;
+    padding: 50px;
 
 }
 /*Selector de classe per als cercles*/
