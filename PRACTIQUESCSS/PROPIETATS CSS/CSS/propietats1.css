@@ -1,0 +1,31 @@
+/*Selector de classe per a un div etiquetat sempàticament com a section*/
+.section {
+    height: 300px;
+    width: 600px;
+    background-color: palevioletred;
+
+}
+/*Selector de classe per als cercles*/
+.circle {
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: green;
+    border: 8px solid;
+    /* top, right, bottom and left */
+    border-radius: 50%;
+
+
+}
+
+/*Selector únic id per la rodona que no té vora*/
+
+#white {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+
+}
