@@ -1,0 +1,19 @@
+.quadrat {
+    width: 200px;
+    height: 100px;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 80px;        	
+    
+}
+
+#lila {
+    background-color: violet;
+}
+
+#groc {
+    background-color: yellow;
+}
