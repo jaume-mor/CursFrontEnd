@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /*Aquí estic aplicant un selector universal per la font*/
+        * {
+            font: italic small-caps bold 12px/30px Georgia, serif;
+        }
+
+        /*Aquí estic aplicant un selector de grup per els elements div*/
+        div {
+            height: 100px;
+            width: 500px;
+        }
+
+        /*Aquest és un selector estils de la classe city, que s'utilitzarà al body per definir les ciutats-capital*/
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        /*Aquesta és la fulla d'estils de la classe center*/
+        .center {
+            text-align: center;
+            color: blue;
+        }
+
+        /*Aquí definim un selector id, que es defineix per #, que s'aplica només a aquest element*/
+        #para1 {
+            text-align: center;
+            color: red;
+    
+        /*Aquí definim un selector de grup, que aplica estils a elements html que tinguin les definicions h1 i h3*/
+
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+            color: red;
+            border: 5px solid gray;
+        }
+
+       /*Aquí definim un selector de grup, que aplica a l'estil h2*/
+
+
+        h2 {
+            margin: 40px;
+
+        }
+
+        h2 {
+            text-decoration: overline;
+        }
+
+        /*Això són exemples de propietats i valors per a l'estil paràgraf*/
+        p {
+            border: 2px solid powderblue;
+            padding: 25px;
+            margin: 50px;
+            border-style: solid;
+            border-width: 25px 10px 4px 35px;
+            /* top, right, bottom and left */
+            border-radius: 5pt;
+
+        }
+
+        .p3 {
+            font-family: "Lucida Console", "Courier New";
+            font-style: italic;
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="city">
+        <h1>London</h1>
+        <p>London is the capital of England.</p>
+    </div>
+    <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+    </div>
+    <div class="city">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <h1 class="center"> These are some of European main capitals</h1>
+    <p>The capitals are the most imporant cities in every country</p>
+    <div>
+        <chapter>
+            <header>
+                <h1>What happens in capitals?</h1>
+            </header>
+            <p class=p3>Capitals host all kinds of services and public premises</p3>
+        </chapter>
+    </div>
+
+
+
+</body>
+
+</html>
