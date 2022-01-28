@@ -1,0 +1,17 @@
+¨/*Aquí treballem amb un pseudoelement per crear selectors en capes, per comptes de blocs*/ 
+#portada {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90%;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+}
+
+#portada ::before {
+    content: "";
+    background-image: url(../IMG/Lleo.jpg);
+    position: absolute;
+    
+}
