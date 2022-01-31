@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici estructura 1 </title>
+    <style>
+        /* Exercici 1) dos-columnes: mateix ample amb inline-block*/
+
+        .main {
+            width: 950px;
+            border: 2px solid;
+        }
+
+        .caixa {
+            display: inline-block;
+            width: 350px;
+            border: 2px solid;
+            padding: 2px;
+
+        }
+
+        p {
+            text-align: left;
+
+        }
+
+        #caixa3 {
+            display: inline-block;
+            width: 600px;
+            border: 2px solid;
+        }
+
+        #caixa4 {
+            display: inline-block;
+            width: 200px;
+            border: 2px solid;           }
+
+
+        #caixalateral {
+            display: inline-block;
+            width: 200px;
+            margin: 2px;
+            background: silver;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="caixa">
+        <p> Contingut de la primera columna</p>
+    </div>
+
+    <div class="caixa">
+        <p>Contingut de la segona columna</p>
+    </div>
+    <br><br>
+
+    <div class="main">
+
+        <div class="caixa3">
+            <p> Contingut principal</p>
+        </div>
+
+        <div id="caixa4">
+            <p>Barra lateral</p>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="main">
+
+        <div id=caixa3>
+            <p> Aquí anirà el contingut del menú principal</p>
+        </div>
+        <div id="caixalateral">
+            <p>Aquí anirà el contingut aliniat a l'esquerra</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
