@@ -1,65 +1,139 @@
+/*Margin i padding a l'àrea de treball*/
 * {
     padding: 10px;
     padding: 10px;
     box-sizing: border-box;
-   
-}
 
+}
+/*Contenidor principal*/
 .principal {
+    display: flex;
+    flex-flow: column nowrap;
     max-width: 1200px;
+    background-color: cyan;
+    border: solid 2px;
 }
-
-.header {
-    background:
-}
+/*Header*/
 
 .capçalera {
-
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(43, 128, 226);
+    border: solid 2px;
 }
-
+/*Menús del header*/
 .menu {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: blue;
+    height: 100px;
 }
-
+/*Logo*/
 .logo {
-
+    background-color: #4DFF73;
+    flex: 1 1 auto;
 }
-
+/*Barra de navegació*/
 .navegacio {
-
+    background-color: #6AFA20;
+    flex: 5 1 auto;
 }
-
+/*Icones socials*/
 .social {
-
+    background-color: green;
+    flex: 1 1 auto;
 }
-
+/*Banner-Imatge principal calçalera*/
 .banner {
-
+    display: flex;
+    background-color: violet;
 }
-
+/*Text sobre banner*/
+h1 {
+    display: flex;
+    background-color: teal;
+}
+/*Section*/
 section {
-
+    display: flex;
+    background-color: #FACE20;
+    margin: 5px;
+    border: solid 2px;
 }
-
+/*Caixa articles*/
 .articles {
-
+    display: flex;
+    flex: 3 1 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(255, 166, 0);
 }
-
+/*Articles*/
 .item {
+    background-color: #ff7b00;
+    border: solid;
+    flex: 1 1 auto; 
+}
+/*Navegació entre articles*/
+.navarticles{
+    background-color: #70A3C4;
+    flex: 1 1 100%;
 
 }
 
+/*Caixa Aside-destacat lateral*/
+aside {
+    flex: 1 1 auto;
+    background-color: red;
+    border: solid 2px;
+}
+/*Article del aside-destacat lateral*/
 .articlesaside {
-
+    background-color: papayawhip;
+}
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background-color: #458DFF;
+    border: solid 2px;
 }
 
 .peu {
+    background-color: rgb(255, 192, 231);
+    display: flex;
+    flex-direction: row;
 }
 
 .opcionspeu {
-    
+    background-color: rebeccapurple;
 }
 
 .tips {
+    background-color: salmon;
+}
+/*Opció responsive per a tauletes*/
+@media screen and (max-width: 900px) {
 
+    section {
+        display: flex;
+        flex-flow: column;
+    }
+}
+/*Opció responsive per a mòbils*/
+@media screen and (max-width: 600px) {
+    .menu {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+    }
+
+    section {
+        display: flex;
+        flex-flow: column;
+    }
 }
