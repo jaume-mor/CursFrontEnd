@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aritmètics</title>
+</head>
+
+<body>
+    <p id="total"></p>
+    <script>
+        //Operadors aritmètics
+        var a, b, c;
+        console.log("Declaració de variables");
+        console.log("a = " + a + "");
+        console.log("b = " + b + "");
+        console.log("c = " + c + "");
+        //assignació de valors
+        console.log("Assignació de valors");
+        a = 0, b = 10, c = 20;
+        console.log("a = " + a + "");
+        console.log("b = " + b + "");
+        console.log("c = " + c + "");
+        var total = b + c;
+        //mostar-ho com a finestra d'alerta//
+        alert(total);
+        //mostar-ho al html//
+        
+        document.getElementById("total").innerHTML = total;
+//proves de printar a console.log//
+console.log ("prova de consola" + "per anar-me consolant");
+console.log (a + b);
+    //suma
+    console.log("Operador suma '+'");
+    a=b+c;
+    console.log("a = b + c = "+a+"");
+    //resta
+    console.log("Operador resta '-'");
+    a=b-c;
+    console.log("a = b - c = "+a+"");
+    //multiplicació
+    console.log("Operador multiplicació '*'");
+    a=b*c;
+    console.log("a = b * c = "+a+"");
+    //exponent
+    console.log("Operador multiplicació '*'");
+    a=b**c;
+    console.log("a = b * c = "+a+"");
+    //divisió
+    console.log("Operador divisió '/'");
+    a=b/c;
+    console.log("a = b / c = "+a+"");
+    //mòdul
+    console.log("Operador mòdul '%'");
+    a=b%c;
+    console.log("a = b % c = "+a+"");
+    //increment
+    console.log("Operador increment '++'");
+    b++;
+    console.log("El resultat de 'b++;' és "+b+"");
+    //decrement
+    console.log("Operador decrement '--'");
+    b--;
+    console.log("El resultat de 'b--;' és "+b+"");
+    </script>
+
+
+</body>
+
+</html>
