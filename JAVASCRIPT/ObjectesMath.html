@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Donat un número arrodoneix cap adalt//
+        Math.round (4.6);
+        let xifraarrodonida = Math.round (4.6);
+        console.log ("El número arrodonit és " + xifraarrodonida);
+    </script>
+
+<script>
+    //Donat un número arrodoneix cap adalt//
+let xifraarrodonida1 = Math.floor (4.7);
+console.log ("El número arrodonit a la baixa és " + xifraarrodonida1)
+
+</script>
+
+<script>
+    //Donat un número, fes l'arrel cuadrada//
+    let arrelquadrada = Math.sqrt (49);
+    console.log ("L'arrel quadrada d'aquest número és " + arrelquadrada);
+</script>
+
+<h1> Crea un número aleatori dins un rang</h1>
+<p id= "numaleat"></p>;
+<script>
+    //Crea un número aleatori dins d’un rang//
+    document.getElementById ("numaleat").innerHTML = Math.floor (Math.random () * 100);
+    
+
+
+</script>
+
+<script>
+    /*Fes un programa que demani dos números a l’usuari i retorni un valor aleatori
+enter comprès entre aquests dos números, ambdós inclosos*/
+
+let primnum = prompt ("Escriu un número");
+let secondnum = prompt ("Ara escriu un altre número");
+window.alert ("Un número aleatori entre tots dos és " + Math.random (primnum, secondnum));
+
+</script>
+
+    </body>
+</html>
