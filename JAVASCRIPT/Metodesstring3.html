@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*Practicarem amb els mètodes: .replace , .slice, i typeof
+Donada la següent declaració: const producto = 'Monitor 20 Pulgadas';
+a. Reemplaça Pulgadas per ‘. Reemplaça 20 per 40.
+b. Extreu en una nova variable la següent part de la frase: 40 Pulgadas.
+c. Extreu en una nova variable la següent part de la farase: nitor 20.
+d. Declara una variable i assignali el teu Nom. Mostra la primer lletra d’aquesta
+variable.*/
+
+//Fem la declaració de la constant producto i la mostrem a la consola//
+
+const producto = "Monitor 20 pulgadas";
+console.log (producto);
+
+//Reemplacem el nombre de pulgadas de l'string de 20 per 40//
+
+let monitorcanviat = (producto.replace (20, 40));
+console.log (monitorcanviat);
+
+//Extreu en una nova variable la següent part de la frase: 40 Pulgadas//
+
+let extraccio = (monitorcanviat.charAt (8));
+console.log (extraccio);
+    </script>
+
+</body>
+</html>
