@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+//Calcula els milisegons que falten fins al dia del teu aniversari//
+
+let ara = new Date ();
+console.log ("Ara som en el moment " + ara);
+let aramilisegons = ara.getMilliseconds ();
+let daniversari = Date (2022, 08, 06);
+let milisegons = Date.now (); 
+console.log ("Els mil.lisegons d'ara són " + aramilisegons);
+
+let milifalta = milisegons - daniversari;
+console.log ("El temps que falta per al meu aniversari" + milifalta)
+    </script>
+    <script>
+        /*Crea un objecte de tipus Date amb la data i hora actual. Què passa si s’assigna
+amb el mètode setHours el valor 26? Què passa si s’assigna amb el mètode
+setMinutes el valor 65? Què passa si s’assigna com a dia de mes 35?*/
+
+//Creem l'objecte tipus Date i el mostrem a la consola//
+
+const d1 = new Date();
+console.log ("La data d'avui és " + d1);
+
+    </script>
+
+<script>
+    //Assignem amb el mètode setHours el valor 26//
+
+const tempsdara = new Date();
+tempsdara.setHours(26);
+tempsdara.setMinutes(65);
+tempsdara.setDate (35);
+
+console.log ("La data d'avui amb un dia de 26 hores és " + tempsdara); 
+</script>
+
+<script>
+    //Crea un programa que 
+
+</script>
+
+</body>
+
+</html>
