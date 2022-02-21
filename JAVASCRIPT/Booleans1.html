@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+/*Imagina’t que vols fer el pagament del carrito de la compra.
+Donades 2 variables totalCarrito, cashDisponible, comprova si tens prou cash
+per pagar el total del carret.*/
+
+const totalCarrito = 100;
+const cashDisponible = 100;
+//Establim les premises-cassos de programació//    
+//Escenari 1: Tenim prou cash per poder fer la compra//
+console.log ("El total de la comanda és "+ totalCarrito);
+console.log ("El total de diners que téns per pagar és "+cashDisponible);
+
+console.log ("******* Escenari en que tenim prou cash per fer la comanda ********")
+
+if (cashDisponible>totalCarrito) {
+    console.log("Tens els diners per poder fer la comanda")
+} else {
+    console.log ("No tens prous diners per comprar")
+}
+
+console.log("******* Escenari en que tenim els diners justos per fer la comanda ********");
+
+if (cashDisponible==totalCarrito) {
+console.log ("Tens els diners justos per poder comprar");    
+}
+
+</script>
+</body>
+</html>

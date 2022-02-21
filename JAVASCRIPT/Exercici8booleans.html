@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*8. Imagina’t que en la teva botiga tens les següents variables:
+let efectivo;
+let credito;
+let disponible = efectivo + credito;
+let totalCarrito;
+
+Programa un codi, que mostri als clients un missatge amb les formes de
+pagament que té disponibles en funció dels següents escenaris:*/
+
+        let efectivo = 30;
+        let credito = 890;
+        let disponible = efectivo + credito;
+        let totalCarrito = 900;
+
+        console.log("Tens un efectiu de " + efectivo);
+        console.log("Tens en tarja de crèdit " + credito);
+        console.log("Tens un total disponible de " + disponible);
+        console.log("El total del que vols comprar és " + totalCarrito);
+
+        /*escenari 1: “Pots comprar en efectiu o amb crèdit”
+        let efectivo = 1000;
+        let credito = 1000;
+        let disponible = efectivo + credito;
+        let totalCarrito = 700;*/
+
+console.log ("********** Escenari 1. Pots comprar en efectiu o amb crèdit***********")
+if ((efectivo || credito)>=totalCarrito)
+{
+console.log("Pots comprar en efectiu o amb crèdit")    
+} else if(efectivo<=totalCarrito); 
+{
+console.log ("Hauràs de pagar-ho tot amb tarja de crèdit");
+} 
+        /*escenari 2: “Pots comprar fent us d’efectiu i crèdit”
+        let efectivo = 300;
+        let credito = 400;
+        let disponible = efectivo + credito;
+        let totalCarrito = 700;*/
+
+        console.log("********* Escenari 2: Pots comprar fent ús d'efectiu i de crèdit********")
+
+        if ((efectivo + credito) >= totalCarrito) {
+            console.log("Pots comprar fent ús d'efectiu i de crèdit")
+        } else {
+            console.log("No pots comprar fent ús d'efectiu i de crèdit");
+
+        }
+
+        /*escenari 3: “No disposes de saldo disponible per fer la compra”
+        let efectivo = 300;
+        let credito = 400;
+        let disponible = efectivo + credito;
+        let totalCarrito = 900;*/
+
+        console.log("****** Escenari 3: No disposes de saldo disponible per fer la compra ******");
+
+        if (disponible < totalCarrito) {
+            console.log("No disposes de saldo disponible per fer la compra");
+        } else {
+            console.log("Endavant, pots comprar");
+
+        }
+    </script>
+</body>
+
+</html>
