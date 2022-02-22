@@ -1,84 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Booleans i switch</title>
 </head>
+
 <body>
-<h1>Exercici amb booleans i switch</h1>
+    <h1>Exercici amb booleans i switch</h1>
 
     <script>
-
-/*Declara una variables anomenada esCorrecte, assigna-li true o false. Utilitza un
+        /*Declara una variables anomenada esCorrecte, assigna-li true o false. Utilitza un
 condicional per veure el seu valor.*/
 
-console.log ("******** Primer exercici amb booleans ********");
+        console.log("******** Primer exercici amb booleans ********");
 
-let esCorrecte = true;
+        let esCorrecte = true;
 
-console.log (esCorrecte)
+        console.log(esCorrecte)
 
-if (esCorrecte) {
-    console.log("El resultat de Escorrecte és true");
- }
-else {
-    console.log("El resultat de Escorrecte és false");
-}
+        if (esCorrecte) {
+            console.log("El resultat de Escorrecte és true");
+        } else {
+            console.log("El resultat de Escorrecte és false");
+        }
 
-/*Declara i assigna dos valors booleans. Programa els següent escenaris:
-a. Escenari 1: Si tots dos valors són certs, el resultat hauria de ser cert. En
-la resta de casos ha de ser Fals.*/
+        /*Declara i assigna dos valors booleans. Programa els següent escenaris:
+        a. Escenari 1: Si tots dos valors són certs, el resultat hauria de ser cert. En
+        la resta de casos ha de ser Fals.*/
 
-console.log ("****** Segon exercici amb booleans. Escenari 1 ********")
-        var x =3;
+        console.log("****** Segon exercici amb booleans. Escenari 1 ********")
+        var x = 3;
         var y = 8;
 
-console.log ("La variable x és " +x + " i la variable y és " + y);
+        console.log("La variable x és " + x + " i la variable y és " + y);
 
-        if(x>4 && y<10) {
-            console.log ("El resultat del booleà és true")
+        if (x > 4 && y < 10) {
+            console.log("El resultat del booleà és true")
 
-        }
-        else {
-            console.log ("El resultat del booleà és fals")
-        }
-
-/*Escenari 2: Si un dels dos valors és certs, el resultat hauria de ser cert.
-En la resta de casos ha de ser Fals*/
-
-console.log ("********Segon exercici amb booleans. Escenari 2 ********");
-
-var x =3;
-var y = 12;
-
-console.log ("La variable x és " +x + " i la variable y és " + y);
-
-        if(x>4 || y<10) {
-            console.log ("El resultat del booleà és true")
-
-        }
-        else {
-            console.log ("El resultat del booleà és fals")
+        } else {
+            console.log("El resultat del booleà és fals")
         }
 
-/*3. Analitza les següents expressions lògiques. Mostra per pantalla el seu valor i
-raona el seu resultat.
-a) 2 < 12
-b) 2 < "12"
-c) "2" < "12"
-d) !("2" < "12")
-e) ((2 < "12") && (2 == "2"))
-f) (("2" < "12") || (2 < 12))
-g) (("2" < "12") && (2 < 12))*/
+        /*Escenari 2: Si un dels dos valors és certs, el resultat hauria de ser cert.
+        En la resta de casos ha de ser Fals*/
 
-console.log ("******* Anàlisi d'expressions lògiques ************")
-var a = 2>12;
-console.log (a);
+        console.log("********Segon exercici amb booleans. Escenari 2 ********");
+
+        var x = 3;
+        var y = 12;
+
+        console.log("La variable x és " + x + " i la variable y és " + y);
+
+        if (x > 4 || y < 10) {
+            console.log("El resultat del booleà és true")
+
+        } else {
+            console.log("El resultat del booleà és fals")
+        }
+
+        /*3. Analitza les següents expressions lògiques. Mostra per pantalla el seu valor i
+        raona el seu resultat.
+        a) 2 < 12
+        b) 2 < "12"
+        c) "2" < "12"
+        d) !("2" < "12")
+        e) ((2 < "12") && (2 == "2"))
+        f) (("2" < "12") || (2 < 12))
+        g) (("2" < "12") && (2 < 12))*/
+
+//4 Exercicis if aniuats: if, else i else if//
+
+/*Imagina’t que vols fer el pagament del carrito de la compra.
+Donades 2 variables totalCarrito, cashDisponible, comprova si tens prou cash
+per pagar el total del carret.*/
+
+console.log("*******Exercici carrito******");
+
+        var totalCarrito = 200;
+        var cashDisponible = 250;
+        //xxxcontinuem aquí//
+
+        //Creem condició comprovem si num1 és més gran que num2
+        if (cashDisponible >=totalCarrito) {
+            console.log("Tens prou diners per fer la comanda");
+
+        } else {
+            console.log("No tens prou diner per fer la comanda");
 
 
-
+        } else if (num1 < num2) {
+            console.log(+num1 + " és més petit que " + num2 + "");
+            //si num2 no és més petit
+            //ni més gran que num2, són iguals
     </script>
 </body>
+
 </html>

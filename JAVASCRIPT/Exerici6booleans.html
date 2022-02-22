@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*6. Demana una nota (número). Mostra qualificació segons nota:
+0-3: Mol deficient
+3-5: Insufficient
+5-6: Sufficient
+6-7: Bé
+7-9: Notable
+9-10: Excel·lent*/
+
+        console.log("******* Exercici de switch case assignant strings a determinats valors **********")
+
+        var nota = 4.6;
+
+        console.log("El valor de la nota és " + nota);
+
+        console.log("******* Programem els cassos de canvi a les notes numèriques ****************");
+
+        switch (true) {
+//Podem establir un intèrval//
+            case (nota >= 0 && nota <3):
+                console.log("la nota que has tret és Molt deficient");
+                break;
+                //També podem establir tots els cassos un a un//
+            case 4:
+                console.log("La nota que has tret és Insuficient");
+                break;
+            case 5:
+                nota
+                console.log("La nota que has tret és Suficient");
+                break;
+            case 6:
+                nota
+                console.log("La nota que has tret és Bé");
+                break;
+            case 7:
+                nota
+            case 8:
+                nota
+                console.log("La nota que has tret és Notable");
+                break;
+
+            default:
+            console.log ("No se la nota que has tret");
+                break;
+        }
+    </script>
+</body>
+
+</html>
