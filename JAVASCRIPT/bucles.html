@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Exercici bucles</h1>
     <script>
         //Identifica quants números parells i imparells hi ha en un bucle//
-        console.log("*****Identifica quants números parells i imparells hi ha en un bucle********")
-        let numero = 15;
-        console.log(numero);
-        for(i=1; i<=10; i++){
-console.log(i);
-}
-
+        console.log ("*****Identifica quants números parells i imparells hi ha en un intèrval********")
+        console.log ("--------------Mostrarem els resultats amb el display console.log-------------")
+        let numero = 12;
+        console.log ("El número que he triat és l'interval de 1 a " + numero);
+        for (let i = 1; i <= numero; i++) {
+            if (i % 2 == 0) {
+                console.log ("El número " + i + " és parell");
+            } else {
+                console.log ("El número " + i + " és senar");
+            }
+        }
     </script>
 </body>
 </body>
+
 </html>
