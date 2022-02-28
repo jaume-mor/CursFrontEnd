@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*Crea una funció que es digui Saludar, que tingui tres argument: nom, cognom, sexe.
+Crida a aquesta funció amb diferents escenaris, per tal d’escriure per pantalla:
+Benvinguda [nom] [Cognoms] si és dona.
+Benvingut [nom] [Cognoms] si és home.
+També, tingues en compte un escenari, per quan no passis a la funció el paràmetre
+sexe.*/
+
+
+
+        var nom;
+        var cognom;
+        var sexe;
+
+        //escenari 1//
+        nom = "Juan";
+        cognom = "Lopez";
+        sexe = "H";
+
+        //escenari 2//
+        nom = "Anna";
+        cognom = "Miralles";
+        sexe = "D";
+
+        function saludar(nom, cognom, sexe) {
+            switch (sexe) {
+                case "D":
+                    console.log("Benvinguda " + " " + nom + " " + cognom);
+                    break;
+                    case "H":
+    console.log("Benvingut ");
+    break;
+            }
+    </script>
+</body>
+
+</html>
