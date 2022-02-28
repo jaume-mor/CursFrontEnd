@@ -22,17 +22,19 @@ has fet.*/
 let numsecret = Math.random ()*9 + 1;
 //Arrodonim el número secret sense decimals//
 let sencer = Math.ceil(numsecret);
-//let sencer = numsecret * mult;//
-console.log(sencer);
+//Declarem una variable per acumular intents//
+let intents = 5;
 
-do {
-    var demana = prompt("Introdueix un número");
+console.log("El número secret és " + sencer);
+
+ do {
+    var endevinar  = parseInt (prompt("Digue'm un número"));
+    alert ("Et queden " + intents-- + "intents");
+
     
-} while (demana != sencer);
+} while (endevinar != sencer);
 
-//let sencer = Math.round (mumsecret);//
-
-//console.log (sencer);//
+alert ("😊 Has endevinat el número!. El número era " + sencer);
 
 
     </script>
