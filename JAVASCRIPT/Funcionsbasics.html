@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Funcions declarades. Declarem la funció, en aquest cas per mostrar tres valors a la consola//
+
+        function AixoEsFuncio() {
+            console.log("Un");
+            console.log("Dos");
+            console.log("Tres");
+        }
+
+        //Ara invoquem la funció. Els parèntesi indiquen que la funció s'executarà//
+        /*AixoEsFuncio();*/
+
+        //Cada cop que la invoquem, s'executarà i ens mostrarà els tres console.log que hem declarat com a part de la funció//
+
+        /*AixoEsFuncio();
+        AixoEsFuncio();
+        AixoEsFuncio();*/
+
+        //Una funció que retorna valors. Aquesta utilitza la palabra return//
+
+        function UnaFuncioQueRetornaValors() {
+            console.log("Un");
+            console.log("Dos");
+            console.log("Tres");
+            console.log("Quatre");
+            return "La funció ha retornat una cadena de text"; //El retorn dins les funcions va sense parèntesi//
+
+        } //Aquí ha acabat la declaració de funció amb retorn//
+
+        //Ara invocarem la funció en una variable nova//
+        let ValorDeLaFunció = UnaFuncioQueRetornaValors(); //Sempre amb els dos parèntesis al final//
+
+        console.log(ValorDeLaFunció);
+
+        console.log(
+            "****** La paraula return dona el resultat de la funció i atura la lectura d'altres elements posteriors de la funcio"
+            )
+
+        function UnaFuncioambretorn() {
+            console.log("Un");
+            console.log("Dos");
+            console.log("Tres");
+            return "La funció ha retornat una cadena de text";
+            console.log("Quatre");
+        }
+        let ValorSegonDeLaFuncio = UnaFuncioambretorn();
+
+        console.log(ValorSegonDeLaFuncio);
+    </script>
+</body>
+
+</html>
