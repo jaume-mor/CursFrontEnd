@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*9. Fes un programa amb les seves funcions que determini si un password és segur.
+Per exemple, un password segur ha de complir les següents condicions:
+● Ha de contenir almenys 8 números. Fer if-else amb frase.lenght
+● Ha de contenir almenys una majúscula. Fer una funció patró amb RegExp
+● Ha de contenir almenys una minúscula. Fer un patró amb RegExp
+● Ha de contenir un número. Fer un patró amb RegExp
+● Almenys ha de contenir un caràcter especial.
+Pots fer servir una funció per cada comprovació.*/
+
+        var password = "abC12a";
+        //● Ha de contenir almenys 8 números. Fer if-else amb frase.lenght//
+
+        function validanum(password) {
+            if (password.length == 8) {
+                console.log("El password conté " + password.length + " caràcters i és correcte")
+            } else if (password.length > 8) {
+                console.log("El password conté " + password.length + " i te massa caràcters")
+            } else {
+                console.log("El password conté " + password.length + " caràcters i li falten caràcters")
+            }
+        }
+
+        //● Ha de contenir almenys una majúscula. Fer una funció patró amb RegExp//
+
+        function validaUpperCase(password) {
+            if (condition) {
+
+            } else {
+
+            }
+        }
+
+//xxxcontinuar aquí//
+
+        var dnivalidnum = validanum(password);
+    </script>
+</body>
+
+</html>

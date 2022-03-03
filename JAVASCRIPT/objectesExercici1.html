@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Defineix un objecte producte, amb els següents atributs: id, name, price, type i
+assignalis valors.
+• Ojo amb el valor id
+• El type seria el tipus de producte, per exemple si estem a una botiga podria
+ser: clothes, beauty, mejar ....
+Crea diferents objectes amb valors diferents.
+Accedeix a la propietat name del objecte1, fes el mateix amb l’objecte2....*/
+
+const producte = {
+    id : "1",
+    name : "Nissan",
+    model : "Note",
+    price : 300,
+    type : "Benzina"
+}
+
+const producte2 = {
+id : "2",
+name : "Renault",
+model : "Clio",
+price : 500,
+type : "Diesel"
+}
+
+const producte3 = {
+id : "3",
+name : "Seat",
+model : "Córdoba",
+price : 400,
+type : "Diesel"
+}
+
+
+console.log(producte.name);
+console.log(producte2.name);
+console.log(producte3.name);
+console.log(producte.price);
+
+/*Defineix l’objecte subTotal, amb un únic atribut que serà el type del objecte producte.
+Aquest tipus tindrà un objecte aniuat que tindrà els atributs value, quantitat i
+discount. Assignali valors.*/
+
+const subTotal = {
+    type : {
+        value: true,
+        quantitat: 3,
+        discount: 30 
+    }
+
+
+    </script>
+</body>
+</html>
